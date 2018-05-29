@@ -1,0 +1,34 @@
+
+
+{
+
+    "ABL1": {"ref": "chr9", "start": 130714369, "end": 130854114, "cigar_in": "M1396[0-1][1-9]N","catg": "expr"}, 
+    "WT1": {"ref": "chr11", "start": 32428042, "end": 32434722, "cigar_in": "M438N", "catg": "expr"},
+    "PRAME": {"ref": "chr22","start": 22548424, "end": 22548559,"seq": "^CGT", "catg": "expr"}, 
+    "NPM1_wt": {"ref": "chr5","start": 171407744, "end": 171410635, "cigar_out": "4I","catg": "expr", "cigar_in": "[0-9]M2752N[0-9][0-9]M","pos": 1714077}, 
+    "NPM1_mutant":{"ref": "chr5","start": 171407744,"end": 171410635, "cigar_in": "[0-9]M2752N[0-9][0-9]M4I","catg": "expr"},
+
+
+     "chr8_fusion": {"ref": "chr8", "start": 92017309, "end": 92017431, "cigar_in": "6[5-9]M7[0-9]S","catg": "fusion"},
+
+    "chr21_fusion": {"ref": "chr21", "start": 34859474, "end": 34859568, "cigar_in": "6[5-9]S7[0-9]M","catg": "fusion"},
+
+    "chr22_fusion": {"ref": "chr22","start": 23289558, "end": 23290413,  "cigar_in": "77M[4-5][0-9]S","catg": "fusion"},
+
+    "chr9_fusion": {"ref": "chr9", "start": 130854064,"end": 130854114, "cigar_in": "8[0-9]S[4-5][0-9]M", "catg": "fusion"},
+
+     "chr16_fusion1": {"ref": "chr16", "start": 67066750,"end": 67082310, "cigar_in": "[6-8][0-9]M[5-7][0-9]S", "catg": "fusion"},
+
+    "chr16_fusion2": {"ref": "chr16", "start": 15720994 ,"end": 15721053,"cigar_in": "[5-6][0-9]M[6-8][0-9]S" ,"catg": "fusion"},
+
+    "inv16": {"ref1": "chr16", "pos1": 15721052 ,"ref2": "chr16","pos2": 67082309,"catg": "fusion2"},
+    
+    "PML_RARA": {"ref1": "chr17", "pos1": 40348315 ,"ref2": "chr15","pos2": 74033415,"catg": "fusion2"},
+     
+    "t922_p190": {"ref1": "chr9", "pos1": 130854063 ,"ref2": "chr22","pos2": 23182240,"catg": "fusion2"},
+    
+    "t922_p210": {"ref1": "chr9", "pos1": 130854063 ,"ref2": "chr22","pos2": 23290414,"catg": "fusion"},
+    
+        
+}
+
