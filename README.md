@@ -1,4 +1,4 @@
-# QMRD: Quantification of Measurable Residual Disease 
+# QMRD: Quantification of Measurable Residual Disease
 
 Targeted RNA-sequencing for the quantification of measurable residual disease in acute myeloid leukemia
 
