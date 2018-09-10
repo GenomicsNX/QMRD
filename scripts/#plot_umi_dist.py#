@@ -1,5 +1,0 @@
-
-
-
-from snakemake.shell import shell
-from os import path
