@@ -1,0 +1,34 @@
+
+__default__:
+  time: "12:00:00"
+  mem: "4g"
+  cpus: "1"
+  jobname: "{rule}"
+  out: "out/{rule}_{wildcards.sample}_%J.out"
+  
+
+cutadapt:
+   time: "96:00:00"
+   mem: "64g"
+   cpus: "1"
+   jobname: "{rule}_{wildcards.sample}"
+   out: "out/{rule}_{wildcards.sample}"
+
+
+trim_umi:
+   time: "96:00:00"
+   mem: "64g"
+   cpus: "1"
+   jobname: "{rule}_{wildcards.sample}"
+   out: "out/{rule}_{wildcards.sample}"
+
+   
+star:
+   time: "96:00:00"
+   mem: "64g"
+   cpus: "8"
+   jobname: "{rule}_{wildcards.sample}"
+   out: "out/{rule}_{wildcards.sample}"
+
+
+
