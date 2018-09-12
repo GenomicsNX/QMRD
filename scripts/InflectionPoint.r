@@ -10,7 +10,7 @@ outpdf <- args[3]
 library(dplyr)
 
 
-# read in ABL unique UMI counts (each rwo corresponds to a unique UMI and its count)
+# read in ABL unique UMI counts (each row corresponds to a unique UMI and its count)
 umi <-read.table(infile, header=F) #study/sample
 colnames(umi) <- c('count','UMI')
 
@@ -19,7 +19,7 @@ colnames(umi) <- c('count','UMI')
 umi <- umi[with(umi, order(-(count))), ]
 umi$id <- rep(1:nrow(umi),1)
 
-# calculate 2.5% right tail as outliners (n > mean+2sd)
+# calculate 2.5% right tail as outliers (n > mean+2sd)
 outliner <- 2*sd(umi$count) + mean(umi$count)
 
 
