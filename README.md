@@ -12,4 +12,14 @@ Despite the achievement of a complete remission (CR) following therapy, acute my
 
 To overcome these limitations, we developed a multi-gene, targeted RNA-sequencing (RNA-seq)-based method for the sensitive detection and quantitation of known AML genetic signatures.  This AML RNA-seq panel utilizes a pool of target-specific primers containing 12 nucleotide (nt) unique molecular indices (UMIs) which capture and individually tag RNA molecules of interest during reverse transcription, followed by targeted PCR of the barcoded cDNA, and then library construction. 
 
-
+<br>
+<b>Citation:</b><br>
+<b><a href="https://www.ncbi.nlm.nih.gov/pubmed/30171026" class="" classname="" target="_blank" name="">Targeted RNA-sequencing for the quantification of measurable residual disease in acute myeloid leukemia.</a> </b>
+Dillon LW, Hayati S, Roloff GW, Tunc I, Pirooznia M, Mitrofanova A, Hourigan CS.
+Haematologica. 2019 Feb;104(2):297-304. doi: 10.3324/haematol.2018.203133. Epub 2018 Aug 31. PMID: 30171026 
+<br>
+  <br>
+  <br>
+  <br>
+  
+  
